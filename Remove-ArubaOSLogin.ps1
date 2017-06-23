@@ -13,8 +13,6 @@
 #>
 
 param(
-
-    #This set of params are used when the details of the Username/Password/WSDL are in the script
     [Parameter(Mandatory=$true,HelpMessage="Provide the Parameter that the login session obtained from Get-ArubaOSLogin")]
     $ArubaOSCookie,
     [Parameter(Mandatory=$true,HelpMessage="Enter the hostname for the switch you are connecting to")]
