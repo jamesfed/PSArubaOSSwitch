@@ -5,7 +5,7 @@
 .Synopsis
    This function gets a login cookie to use with HPE ArubaOS-Switch Network Switches
 .DESCRIPTION
-   Use this function to login to the switch before calling other functions in this module (like Get-ArubaOSVLAN).
+   Use this function to login to the switch before calling other functions in this module (like Get-ArubaOSVlan).
 .EXAMPLE
    To login to the switch with Hostname sw-swspare01.example.com with the username manager and password standbyfortitanfall use the following.
 
